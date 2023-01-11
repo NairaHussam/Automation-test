@@ -3,18 +3,14 @@ package StepDefinition;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
 
+
+import org.testng.Assert;
+
+import org.testng.asserts.SoftAssert;
 import Pages.Search;
-//import org.testng.Assert;
-//import org.testng.asserts.SoftAssert;
+
 public class SearchSD {
-
-
-
-
-
-
   Search search = new Search();
 
     @When("user clicks on search field")
@@ -38,6 +34,8 @@ public class SearchSD {
 
         }
     }
+
+
     @Then("user search finds {string} relative results")
     public void searchSku(String arg2) {
         SoftAssert soft = new SoftAssert();

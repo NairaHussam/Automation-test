@@ -1,20 +1,20 @@
 package StepDefinition;
 
-import io.cucumber.java.en.When;
-import Pages.Category;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
+import org.testng.asserts.SoftAssert;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
+import io.cucumber.java.en.When;
+import org.openqa.selenium.WebElement;
+
+import Pages.Category;
+import org.openqa.selenium.By;
+
+
 import static StepDefinition.Hooks.driver;
-import org.openqa.selenium.WebDriver;
-import org.testng.Reporter;
-import org.testng.annotations.Test;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
+
 public class CategorySD {
 
 

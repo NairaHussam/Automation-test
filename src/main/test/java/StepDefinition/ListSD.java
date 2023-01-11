@@ -1,16 +1,24 @@
 package StepDefinition;
 
-import Pages.Category;
-import io.cucumber.java.en.*;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import Pages.List;
+
+
+
+
 import org.testng.Assert;
+
 import org.testng.asserts.SoftAssert;
+
+
+
+
+
+
+
 import java.util.concurrent.TimeUnit;
 import static StepDefinition.Hooks.driver;
 
